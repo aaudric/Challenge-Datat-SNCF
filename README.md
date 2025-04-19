@@ -64,10 +64,8 @@ SNCF-Transilien, opérateur des trains de banlieue en Île-de-France, fait circu
 
 ## 🧮 Métrique d'Évaluation
 
-La métrique utilisée pour évaluer les performances est le **MAPE** (*Mean Absolute Percentage Error*), définie comme : 
-$$
-\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right|
-$$
+La métrique utilisée pour évaluer les performances est la **MAPE** (*Mean Absolute Percentage Error*), définie comme : ![MAPE formula](./mape_formula.png)
+
 ---
 
 ## 🏆 Résultats
